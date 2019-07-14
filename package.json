@@ -1,17 +1,18 @@
 {
-  "name": "node_crash_course",
-  "version": "1.0.0",
-  "description": "Node Crash Course",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Sarthak Dandotiya",
-  "license": "ISC",
-  "dependencies": {
-    "uuid": "^3.3.2"
-  },
-  "devDependencies": {
-    "nodemon": "^1.19.1"
-  }
+	"name": "node_crash_course",
+	"version": "1.0.0",
+	"description": "Node Crash Course",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index",
+		"dev": "nodemon index"
+	},
+	"author": "Sarthak Dandotiya",
+	"license": "ISC",
+	"dependencies": {
+		"uuid": "^3.3.2"
+	},
+	"devDependencies": {
+		"nodemon": "^1.19.1"
+	}
 }

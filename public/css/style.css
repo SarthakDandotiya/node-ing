@@ -1,0 +1,25 @@
+* {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+		Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+	background: #00182e;
+}
+h1 {
+	color: white;
+}
+h2 {
+	color: #ff8944;
+}
+a {
+	padding: 4px 12px;
+	background-color: cornflowerblue;
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	background-color: #365ea7;
+}
+a:active {
+	text-decoration: underline;
+}
